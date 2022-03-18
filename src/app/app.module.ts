@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitleCasePipe } from './title-case.pipe';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TitleCasePipe } from './title-case.pipe';
     SummaryPipe,
     FavoriteComponent,
     TitleCasePipe,
+    LikeComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [CoursesService, AuthorsService],
